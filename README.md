@@ -1,2 +1,5 @@
-# AmazonFlix
-This is a movie app that provides users with access to their favorite movies. I am an ardent lover of Amazon and what they stand for. Everything about this app revolves around Amazon as a company.
+## What Is React?
+   React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+
+## Reasons for React
+   It lets you compose complex UIs from small and isolated pieces of code called “components”.
