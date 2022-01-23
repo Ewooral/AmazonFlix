@@ -35,3 +35,5 @@
 
 ## In particular:
    render returns a React element, which is a lightweight description of what to render.
+
+   Most React developers use a special syntax called “JSX” which makes these structures easier to write.
