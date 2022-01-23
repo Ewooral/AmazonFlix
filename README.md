@@ -26,3 +26,6 @@
 
 ## Note that you can use React to:
    We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
+
+## Here, ShoppingList is a React component class, or React component type.
+   A component takes in parameters, called props (short for “properties”), and returns a hierarchy of views to display via the render method.
