@@ -29,3 +29,5 @@
 
 ## Here, ShoppingList is a React component class, or React component type.
    A component takes in parameters, called props (short for “properties”), and returns a hierarchy of views to display via the render method.
+## The render method 
+   returns a description of what you want to see on the screen. 
