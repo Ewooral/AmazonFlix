@@ -23,3 +23,6 @@
         // Example usage: <ShoppingList name="Mark" />
 
         ```
+
+## Note that you can use React to:
+   We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
