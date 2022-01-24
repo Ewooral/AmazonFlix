@@ -72,3 +72,8 @@ const name = "Will"```
    after an execution context is popped off the stack
    One global execution context, multiple function 
    context
+ 
+ ## Functional programming core features
+      1. Pure functions (no side effects)
+      2. 'Higher order functions' - highly valuable tool & 
+      often part of the Codesmith intervie
