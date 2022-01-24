@@ -62,4 +62,7 @@ const name = "Will"```
    — Live memory of variables with data (known as a Global Variable 
    Environment)
 
- Running or calling or invoking a funtion is not the same as function definition
+   Running or calling or invoking a funtion is not the same as function definition
+
+   We keep track of the functions being called in JavaScript 
+   with a Call stack
