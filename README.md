@@ -51,4 +51,9 @@ React.createElement('ul', /* ... ul children ... */)
 # What happens when JavaScript code is run?
   As soon as we start running our code, we create a global execution
   context
-
+   ```const num = 3;
+function multiplyBy2 (inputNumber){
+ const result = inputNumber*2;
+ return result;
+}
+const name = "Will"```
