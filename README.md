@@ -61,3 +61,5 @@ const name = "Will"```
    — Thread of execution (parsing and executing the code line after line)
    — Live memory of variables with data (known as a Global Variable 
    Environment)
+
+ Running or calling or invoking a funtion is not the same as function definition
