@@ -76,4 +76,4 @@ const name = "Will"```
  ## Functional programming core features
       1. Pure functions (no side effects)
       2. 'Higher order functions' - highly valuable tool & 
-      often part of the Codesmith intervie
+      often part of the Codesmith intervie...
