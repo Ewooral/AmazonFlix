@@ -47,3 +47,8 @@ React.createElement('h1', /* ... h1 children ... */),
 React.createElement('ul', /* ... ul children ... */)
 );
 ```
+
+# What happens when JavaScript code is run?
+  As soon as we start running our code, we create a global execution
+  context
+
