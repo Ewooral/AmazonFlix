@@ -5,24 +5,24 @@
    It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
 ## React has a few different kinds of components, but we’ll start with React.Component subclasses:
-        ``` class ShoppingList extends React.Component {
-        render() {
-            return (
-            <div className="shopping-list">
-                <h1>Shopping List for {this.props.name}</h1>
-                <ul>
-                <li>Instagram</li>
-                <li>WhatsApp</li>
-                <li>Oculus</li>
-                </ul>
-            </div>
-            );
-        }
-        }
+``` class ShoppingList extends React.Component {
+render() {
+    return (
+    <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+        <li>Instagram</li>
+        <li>WhatsApp</li>
+        <li>Oculus</li>
+        </ul>
+    </div>
+    );
+}
+}
 
-        // Example usage: <ShoppingList name="Mark" />
+// Example usage: <ShoppingList name="Mark" />
 
-        ```
+```
 
 ## Note that you can use React to:
    We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
