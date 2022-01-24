@@ -66,3 +66,9 @@ const name = "Will"```
 
    We keep track of the functions being called in JavaScript 
    with a Call stack
+
+   Tracks which execution context we are in - that is, what 
+   function is currently being run and where to return to 
+   after an execution context is popped off the stack
+   One global execution context, multiple function 
+   context
