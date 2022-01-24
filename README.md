@@ -57,3 +57,7 @@ function multiplyBy2 (inputNumber){
  return result;
 }
 const name = "Will"```
+
+   — Thread of execution (parsing and executing the code line after line)
+   — Live memory of variables with data (known as a Global Variable 
+   Environment)
