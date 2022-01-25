@@ -5,7 +5,8 @@
    It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
 ## React has a few different kinds of components, but we’ll start with React.Component subclasses:
-``` class ShoppingList extends React.Component {
+```JavaScript
+ class ShoppingList extends React.Component {
 render() {
     return (
     <div className="shopping-list">
@@ -41,7 +42,7 @@ render() {
 ## The  ```<div />``` syntax:
    is transformed at build time to React.createElement('div'). The example above is equivalent to:
 
-```
+```JavaScript
 return React.createElement('div', {className: 'shopping-list'},
 React.createElement('h1', /* ... h1 children ... */),
 React.createElement('ul', /* ... ul children ... */)
@@ -81,19 +82,19 @@ React.createElement('ul', /* ... ul children ... */)
       often part of the Codesmith interview...
 
 ## Code that explains higher order functions and callbacks
-   ```javascript
-   function copyArrayAndManipulate(array, instructions) {
-         const output = [];
-         for (let i = 0; i < array.length; i++) {
-         output.push(instructions(array[i]));
-         }
-         return output;
-         }
-         function multiplyBy2(input) {
-         return input * 2;
-         }
-         const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
-      ```
+```javascript
+function copyArrayAndManipulate(array, instructions) {
+      const output = [];
+      for (let i = 0; i < array.length; i++) {
+      output.push(instructions(array[i]));
+      }
+      return output;
+      }
+      function multiplyBy2(input) {
+      return input * 2;
+      }
+      const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
+   ```
 
 * The function we pass in is a callback function
   The outer function that takes in the function (our callback) is a higher-order function
