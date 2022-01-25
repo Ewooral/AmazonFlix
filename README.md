@@ -51,14 +51,14 @@ React.createElement('ul', /* ... ul children ... */)
 # What happens when JavaScript code is run?
   As soon as we start running our code, we create a global execution
   context
-```
-const num = 3;
-function multiplyBy2 (inputNumber){
-const result = inputNumber*2;
-return result;
-}
-const name = "Will"
-```
+   ```javascript
+   const num = 3;
+   function multiplyBy2 (inputNumber){
+   const result = inputNumber*2;
+   return result;
+   }
+   const name = "Will"
+   ```
 
    — Thread of execution (parsing and executing the code line after line)
    — Live memory of variables with data (known as a Global Variable 
@@ -81,18 +81,19 @@ const name = "Will"
       often part of the Codesmith interview...
 
 ## Code that explains higher order functions and callbacks
-```function copyArrayAndManipulate(array, instructions) {
-const output = [];
-for (let i = 0; i < array.length; i++) {
-output.push(instructions(array[i]));
-}
-return output;
-}
-function multiplyBy2(input) {
-return input * 2;
-}
-const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
-```
+   ```javascript
+   function copyArrayAndManipulate(array, instructions) {
+         const output = [];
+         for (let i = 0; i < array.length; i++) {
+         output.push(instructions(array[i]));
+         }
+         return output;
+         }
+         function multiplyBy2(input) {
+         return input * 2;
+         }
+         const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
+      ```
 
 * The function we pass in is a callback function
   The outer function that takes in the function (our callback) is a higher-order function
