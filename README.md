@@ -96,5 +96,5 @@ function copyArrayAndManipulate(array, instructions) {
       const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
    ```
 
-* The function we pass in is a callback function
-  The outer function that takes in the function (our callback) is a higher-order function
+* The function we pass in is a **callback function**
+  The outer function that takes in the function (our callback) is a **higher-order function**
