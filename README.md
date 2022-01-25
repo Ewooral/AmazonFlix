@@ -51,12 +51,14 @@ React.createElement('ul', /* ... ul children ... */)
 # What happens when JavaScript code is run?
   As soon as we start running our code, we create a global execution
   context
-   ```const num = 3;
-function multiplyBy2 (inputNumber){
- const result = inputNumber*2;
- return result;
-}
-const name = "Will"```
+   ```
+   const num = 3;
+   function multiplyBy2 (inputNumber){
+   const result = inputNumber*2;
+   return result;
+   }
+   const name = "Will"
+  ```
 
    — Thread of execution (parsing and executing the code line after line)
    — Live memory of variables with data (known as a Global Variable 
@@ -71,9 +73,22 @@ const name = "Will"```
    function is currently being run and where to return to 
    after an execution context is popped off the stack
    One global execution context, multiple function 
-   context
+   contexts
  
  ## Functional programming core features
       1. Pure functions (no side effects)
       2. 'Higher order functions' - highly valuable tool & 
-      often part of the Codesmith intervie...
+      often part of the Codesmith interview...
+
+## Code that explains higher order functions and callbacks
+    function copyArrayAndManipulate(array, instructions) {
+      const output = [];
+      for (let i = 0; i < array.length; i++) {
+      output.push(instructions(array[i]));
+      }
+      return output;
+      }
+      function multiplyBy2(input) {
+      return input * 2;
+      }
+      const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
