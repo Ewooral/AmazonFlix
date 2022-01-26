@@ -13,6 +13,7 @@ function App() {
         <h1>Welcome to my Portfolio website!</h1>
          <input type="text" placeholder="Firstname" />
          <input type="text" placeholder="Lastname" />
+         <input type="submit" />
       </header>
      
     </div>
