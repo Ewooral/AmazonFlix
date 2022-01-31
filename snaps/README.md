@@ -1,18 +1,16 @@
-# ................................................
-# ................................................
 # APP NAME: SNAPS
 # BUILT BY EWOORAL.
 # linkedIn: www.linkedin.com/in/boahenelijahowusu
-# ................................................
-# ................................................
+ ................................................
 
-## snaps is a photo sharing user Application similar to pinterest.
+
+# snaps is a photo sharing social media Application similar to pinterest.
 
 ## Users can login or register through a custom page featuring google authentication.
 
 ## Once logged, you will be greeted with feeds of images posted by users of the application. 
 
-## functions of our application
+## functionalities
    1. Images posted can be downloaded
    2. Image has a destination URL
    3.  Images can also be saved
@@ -21,4 +19,4 @@
    6. Below the image, you can see other images, just like the one you see above.
    7. You can also visit the user who created that pin or uploaded the image.
    8. Snaps has filtering options. You can search by name. There are some categories on the left panel of the homepage that you can also explore.
-   9. It is fully mobile responsive
+   9. It is fully mobile responsive 
