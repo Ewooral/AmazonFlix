@@ -1,0 +1,1 @@
+snaps is a photo sharing user Application similar to pinterest
