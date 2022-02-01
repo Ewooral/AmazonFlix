@@ -6,9 +6,9 @@
 
 # snaps is a photo sharing social media Application similar to pinterest.
 
-## Users can login or register through a custom page featuring google authentication.
+ * Users can login or register through a custom page featuring google authentication.
 
-## Once logged, you will be greeted with feeds of images posted by users of the application. 
+ * Once logged, you will be greeted with feeds of images posted by users of the application. 
 
 ## functionalities
    1. Images posted can be downloaded
