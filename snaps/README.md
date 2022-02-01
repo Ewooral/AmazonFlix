@@ -20,3 +20,9 @@
    7. You can also visit the user who created that pin or uploaded the image.
    8. Snaps has filtering options. You can search by name. There are some categories on the left panel of the homepage that you can also explore.
    9. It is fully mobile responsive 
+
+
+## Some common erros associated with typscript with React projects
+  1. Importing images in TypeScript React - "Cannot find module"
+ **Answer**
+ - 
