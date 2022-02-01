@@ -7,9 +7,9 @@ import logo from '../assets/logo.png';
 
 const login = () => {
  return ( 
-    <div>
+    <div className="flex justify-start items-center flex-col h-screen">
       Login
-      {logo}
+     
     </div>
     );
 };
