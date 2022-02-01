@@ -25,5 +25,10 @@
 ## Some common erros associated with typescript and React projects/answers
   1. Importing images in TypeScript React - "Cannot find module"
    **Answer**
-   - create a file named image.d.ts in the src directory
-   - 
+   - create a file named image.d.ts or 'anyname'.d.ts in the src directory
+   - declare the following in the image.d.ts or anyname.d.ts file.
+      * declare module '*.jpg';
+      * declare module '*.jpeg';
+      * declare module '*.png';
+      * declare module '*.mp4'; and any other file extensions you'd want to include
+   - Add the file path(./src/image.d.ts) to the include path in the tsconfig.json file
