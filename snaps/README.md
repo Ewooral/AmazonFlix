@@ -22,7 +22,8 @@
    9. It is fully mobile responsive 
 
 
-## Some common erros associated with typscript with React projects
+## Some common erros associated with typescript and React projects/answers
   1. Importing images in TypeScript React - "Cannot find module"
- **Answer**
- - 
+   **Answer**
+   - create a file named image.d.ts in the src directory
+   - 
