@@ -4,5 +4,9 @@ declare module 'react' {
     rel?: string;
     type?: string;
     autoplay?: boolean;
+  
   }
+  
+
 }
+
